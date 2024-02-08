@@ -9,28 +9,14 @@ body
     background-attachment: fixed;
     background-size: cover;
 }
- .data
-{
-    border: 1px solid black;
-}
 .main
 {
     display: flex;
     flex: 1;
 }
-.menu
-{
-    padding: 16px;
-    flex-shrink: 0;
-    background-color: #DCF4FD;
-}
 ul
 {
     list-style-type: none;
-}
-.content
-{
-
 }
 input
 {
@@ -63,12 +49,40 @@ input
     color: white;
     background-color: rgba(0,0,0,.5);
 }
+.section_img
+{
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+}
+img
+{
+    max-width: 30%;
+    min-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+.img
+{
+    display: flex;
+    gap: 50px;
+}
+.img p
+{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+}
 footer
 {
     margin-top: auto;
     display: flex;
+    padding-left: auto;
+    padding-right: auto;
     align-items: center;
-    justify-content: space-between;
     height: 72px;
     background: rgba(0, 0, 0, 0.5);
     color: white;
